@@ -1,0 +1,40 @@
+.thumbnail
+{
+width: 100%;
+}
+.profilepic
+{
+display:inline-block;
+width:100%;
+border-radius:50px;
+}
+.d1
+{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+column-gap:10px;
+row-gap:24px;
+}
+.vidtitle
+{
+font-size:16px;
+font-weight:bold;
+text-decoration-style: solid;
+line-height:20px;
+margin-bottom:12px;
+}
+.vidinfo
+{
+display:grid;
+grid-template-columns:40px 1fr;
+column-gap:4px;
+}
+.auth,.view
+{
+font-size:14px;
+margin:2px;
+color:rgb(96,96,96);
+}
+.auth{
+margin-bottom:2px;
+}
